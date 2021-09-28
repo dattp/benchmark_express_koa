@@ -1,4 +1,4 @@
-##### Môi trường test local:
+##### ENV test local:
 
 - Macbook Pro 2015
 - 2 core i5 4 thread
