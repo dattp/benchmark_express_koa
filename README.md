@@ -16,10 +16,15 @@ node express.js
 node koa.js
 ```
 
-##### RUN k6 test
+##### RUN k6 test: 3 times
 
 ```
 k6 run --vus 100 --iterations 100000 request_get.k6.js
 ```
 
-##### Result
+##### Result average
+
+| Framework | api | %CPU | RPS | Total Time | P95 |
+| :--------:|:---:|:----:|:---:|:----------:|:---:| 
+| Express | GET:/ | 76 | 3000 | 31 s |57 ms|
+| Koa | GET:/ | 53 | 5700 | 18s | 35 ms |
