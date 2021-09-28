@@ -1,0 +1,17 @@
+{
+  "name": "koa-express",
+  "version": "1.0.0",
+  "description": "compare koa vs express http request only",
+  "author": "DatPT<phamtiendatkhanh@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "koa": "^2.13.3",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1"
+  }
+}
